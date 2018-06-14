@@ -29,11 +29,14 @@ Language: JavaScript <br>
 
 5) After each section (even if you're not fully done with it), *add* and *commit* your work.
 
-Please use the commit messages that you see at the end of each section (you can modify if necessary). We will see these messages on Github. It will help us to see your progress. If you go back and fix a section, commit again with an updated message.
+Please use the commit messages that you see at the end of each section (you can modify if necessary).
+ We will see these messages on Github. It will help us to see your progress.
+  If you go back and fix a section, commit again with an updated message.
 
 7) When you are done with your homework, push and make a pull request.
 
-Final note: You are not alone! Everyone else in the class is working on this as well. Communicate with each other on Slack.
+Final note: You are not alone! Everyone else in the class is working on this as well.
+ Communicate with each other on Slack.
 
 
 ## Easy Going
@@ -67,7 +70,7 @@ Final note: You are not alone! Everyone else in the class is working on this as 
 "Commit 3 - Excited Kittens answered"
 <hr>
 
-## Fizz Buzz 
+## Fizz Buzz
 
 >NOTE: THIS IS A CLASSIC RITE-OF-PASSAGE FOR JAVASCRIPT PROGRAMMERS, ESPECIALLY ONES AT GA
 
@@ -118,7 +121,8 @@ const matt = ["Matt H", 186, "Philadelphia"]
 
 ## Return of the Closets
 
-Below, we've given you examples of Kristyn and Thom's closets modeled as data in JavaScript. Use this data to answer the following questions.
+Below, we've given you examples of Kristyn and Thom's closets modeled as data in JavaScript.
+ Use this data to answer the following questions.
 
 ```javascript
 const kristynsCloset = [
@@ -213,7 +217,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 #######
 ```
 
-2. Write a loop that console logs a "right isosceles" triangle (SEE BELOW) made of '#' that has the height and length of `argument`.  This is deceptively tricky. 
+2. Write a loop that console logs a "right isosceles" triangle (SEE BELOW) made of '#' that has the height and length of `argument`.  This is deceptively tricky.
 
 >Ex: argument is 7
 ```
@@ -275,5 +279,3 @@ Expected output:
 &#x1F534; The commit message should read: <br>
 "Commit 11 - Find the Median answered"
 <hr>
-
-
