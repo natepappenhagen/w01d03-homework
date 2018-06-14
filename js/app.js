@@ -270,6 +270,9 @@ console.log(thomsClosetInventory);
 // => "Commit 8 - I loops through their closets".
 
 
+
+
+
 // ## Multiples of 3 and 5
 //
 // _Yes, you might have tackled this earlier, but
