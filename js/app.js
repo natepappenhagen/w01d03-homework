@@ -22,16 +22,43 @@ for (let i = 0; i < 201; i++) {
 // ## Excited Kitten
 // 1. Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
 
+for (let i = 1; i <21; i++) {
+  console.log("Love me, pet me! HSSSSSS!");
+}
+
 // 2. For every **even** number in your loop, log "...human...why you taking pictures of me?...",
 //  "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
 // >Hint: You will need to use Math.random()
 
 
 
+function randomCatResponse(catResponse) {
+          return catResponse[Math.floor(Math.random()*catResponse.length)];
+}
+
+let catResponse = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."];
+
+console.log(randomCatResponse(catResponse));
+console.log(randomCatResponse(catResponse));
+console.log(randomCatResponse(catResponse));
+console.log(randomCatResponse(catResponse));
+
+
+for (let i = 1; i < 21; i++) {
+	console.log("Love me, pet me! HSSSSSS!");
+	if (i % 2 === 0) {
+    console.log(randomCatResponse(catResponse));
+	}
+}
+
+// Definitely spent way too long trouble shooting this problem... :(
+
 
 
 
 // => "Commit 3 - Excited Kittens answered"
+
+
 
 // ## Fizz Buzz
 //
