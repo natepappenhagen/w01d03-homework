@@ -140,17 +140,44 @@ for (let i = 0; i < ninjaTurtles.length; i++) {
 }
 
 
-
-
-
-
-
-
-
 // "Commit 6 - Yell at the Ninja Turtles answered"
+
+
 
 // ## Return of the Closets
 // EXAMPLES
+
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
 
 // => NO COMMIT
 
@@ -163,20 +190,51 @@ for (let i = 0; i < ninjaTurtles.length; i++) {
 //    add Kristyn's lost shoe to Thom's accessories array.
 
 
+const kristynsShoe = kristynsCloset.splice(0,1);
+    console.log(kristynsShoe);
+
+thomsCloset[2].push(kristynsShoe[0]);
+    console.log(thomsCloset);
+
+
 
 // ### Dress Us Up
 // 1. Modify your code to put together **3 separate outfits**
 // for Kristyn and Thom. Put the output in a sentence
 //  to tell us what we'll be wearing. Mix and match!
 
+// kristyn outfit:
 
+const kristynOutfitOne = []
+  kristynOutfitOne.push(kristynsCloset[1], kristynsCloset[3], kristynsCloset[4]);
 
+        console.log(`Kristyn will wear: ${kristynOutfitOne[0]}, ${kristynOutfitOne[1]}, ${kristynOutfitOne[2]}`)
 
+const kristynOutfitTwo = []
+  kristynOutfitTwo.push(kristynsCloset[2], kristynsCloset[5], kristynsCloset[6]);
 
+        console.log(`Kristyn will wear: ${kristynOutfitTwo[0]}, ${kristynOutfitTwo[1]}, ${kristynOutfitTwo[2]}`)
 
+const kristynOutfitThree = []
+    kristynOutfitThree.push(kristynsCloset[0], kristynsCloset[4], kristynsCloset[3]);
 
+        console.log(`Kristyn will wear ${kristynOutfitThree[0]}, ${kristynOutfitThree[1]}, ${kristynOutfitThree[2]}`)
 
+// thom outfit:
+const thomsOutfitOne = []
+    thomsOutfitOne.push(thomsCloset[0][2], thomsCloset[2][1], thomsCloset[0][3]);
 
+        console.log(`Thom will wear ${thomsOutfitOne[0]}, ${thomsOutfitOne[1]}, ${thomsOutfitOne[2]}`)
+
+const thomsOutfitTwo = []
+    thomsOutfitTwo.push(thomsCloset[1][0], thomsCloset[0][0], thomsCloset[2][0]);
+
+        console.log(`Thom will wear ${thomsOutfitTwo[0]}, ${thomsOutfitTwo[1]}, ${thomsOutfitTwo[2]}`)
+
+const thomsOutfitThree = []
+    thomsOutfitThree.push(thomsCloset[2][1], thomsCloset[0][4], thomsCloset[1][3]);
+
+        console.log(`Thom will wear ${thomsOutfitThree[0]}, ${thomsOutfitThree[1]}, ${thomsOutfitThree[2]}`)
 
 
 
@@ -192,6 +250,11 @@ for (let i = 0; i < ninjaTurtles.length; i++) {
 // ### Inventory
 // 2. Thom wants to do inventory on his closet. Using **bracket notation**,
 //  log the arrays containing all of Thom's shirts, pants, and accessories.
+
+
+
+
+
 
 
 
@@ -232,6 +295,23 @@ for (let i = 0; i < ninjaTurtles.length; i++) {
 // => "Commit 9 - Project Euler Problem 1 answered"
 
 // ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // # Hungry for more?
