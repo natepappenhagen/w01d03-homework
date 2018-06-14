@@ -120,7 +120,7 @@ matt[2] = "Gotham City";
     console.log(matt);
 kristyn[2] = "Brooklyn";
     console.log(kristyn);
-    
+
 
 //
 // "Commit 5 - Getting to Know You answered"
@@ -132,8 +132,12 @@ kristyn[2] = "Brooklyn";
 //  (Donatello, Leonardo, Raphael, Michaelangelo)
 //
 // 2. Use a `for loop` to call `toUpperCase()` on each of them and print out the result.
-//
-//
+
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+for (let i = 0; i < ninjaTurtles.length; i++) {
+	     console.log(ninjaTurtles[i].toUpperCase());
+}
 
 
 
