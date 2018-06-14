@@ -87,6 +87,7 @@ for (let i = 1; i < 101; i++) {
 // "Commit 4 - Fizz Buzz answered"
 
 
+
 // ## Getting to Know You
 // Use the following arrays to answer the questions below (name, age, hometown):
 // ```
@@ -106,13 +107,20 @@ for (let i = 1; i < 101; i++) {
 // 4. Remove "Pittsburgh" from Kristyn's array and add "Brooklyn".
 //
 
+const thom = ["Thom", 1000, "Christchurch"]
+const karolin = ["Karolin", 16, "New York"]
+const kristyn = ["Kristyn", 5, "Pittsburgh"]
+const matt = ["Matt H", 186, "Philadelphia"]
 
-
-
-
-
-
-
+thom[0] = "Gameboy";
+    console.log(thom);
+karolin[1] = 17;
+    console.log(karolin);
+matt[2] = "Gotham City";
+    console.log(matt);
+kristyn[2] = "Brooklyn";
+    console.log(kristyn);
+    
 
 //
 // "Commit 5 - Getting to Know You answered"
