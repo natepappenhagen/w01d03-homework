@@ -241,25 +241,29 @@ const thomsOutfitThree = []
 // => "Commit 7 - Kristyn and Thom have their outfits ready for class - array practice"
 
 
+
 // ### Dirty Laundry
 // Continue looking at the closet arrays:
 // 1. Time to do laundry - loop through Kristyn's
 // closet and log the sentence "WHIRR: Now washing (item)"
 //  for each item in the array.
 
+for (let i = 0; i < kristynsCloset.length; i++){
+	console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
+}
+
+
+
 // ### Inventory
 // 2. Thom wants to do inventory on his closet. Using **bracket notation**,
 //  log the arrays containing all of Thom's shirts, pants, and accessories.
 
-
-
-
-
-
-
-
-
-
+const thomsClosetInventory = {
+	thomsShirts: [thomsCloset[0][0], thomsCloset[0][1], thomsCloset[0][2], thomsCloset[0][3]],
+	thomsPants: [thomsCloset[1][0], thomsCloset[1][1], thomsCloset[1][2]],
+	thomsAccessories: [thomsCloset[2][0], thomsCloset[2][1], thomsCloset [2][2]],
+}
+console.log(thomsClosetInventory);
 
 
 
